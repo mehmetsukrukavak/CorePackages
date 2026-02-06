@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Core.Security</id>
+    <version>1.0.0</version>
+    <authors>Core.Security</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="ab2f3741895d7fba10e7cab375f02ee90742b89d" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="Core.Persistence" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="10.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.IdentityModel.Tokens" version="7.7.1" exclude="Build,Analyzers" />
+        <dependency id="Otp.NET" version="1.4.1" exclude="Build,Analyzers" />
+        <dependency id="System.IdentityModel.Tokens.Jwt" version="7.7.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/bin/Release/net10.0/Core.Security.dll" target="lib/net10.0/Core.Security.dll" />
+  </files>
+</package>

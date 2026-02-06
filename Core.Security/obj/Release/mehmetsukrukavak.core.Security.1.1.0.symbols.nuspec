@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>mehmetsukrukavak.core.Security</id>
+    <version>1.1.0</version>
+    <authors>Mehmet Şükrü Kavakn</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/mehmetsukrukavak/CorePackages</projectUrl>
+    <description>Core Library</description>
+    <tags>entity framework core crosscuttingconcerns cqrs</tags>
+    <repository type="git" url="https://github.com/mehmetsukrukavak/CorePackages" commit="ab2f3741895d7fba10e7cab375f02ee90742b89d" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="mehmetsukrukavak.core.persistence" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="10.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.IdentityModel.Tokens" version="7.7.1" exclude="Build,Analyzers" />
+        <dependency id="Otp.NET" version="1.4.1" exclude="Build,Analyzers" />
+        <dependency id="System.IdentityModel.Tokens.Jwt" version="7.7.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/bin/Release/net10.0/Core.Security.pdb" target="lib/net10.0/Core.Security.pdb" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/bin/Release/net10.0/Core.Security.dll" target="lib/net10.0/Core.Security.dll" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/README.md" target="/README.md" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Constants/GeneralOperationClaims.cs" target="src/Core.Security/Constants/GeneralOperationClaims.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Encryption/SecurityKeyHelper.cs" target="src/Core.Security/Encryption/SecurityKeyHelper.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Encryption/SigningCredentialsHelper.cs" target="src/Core.Security/Encryption/SigningCredentialsHelper.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Entities/EmailAuthenticator.cs" target="src/Core.Security/Entities/EmailAuthenticator.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Entities/OperationClaim.cs" target="src/Core.Security/Entities/OperationClaim.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Entities/OtpAuthenticator.cs" target="src/Core.Security/Entities/OtpAuthenticator.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Entities/RefreshToken.cs" target="src/Core.Security/Entities/RefreshToken.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Entities/User.cs" target="src/Core.Security/Entities/User.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Entities/UserOperationClaim.cs" target="src/Core.Security/Entities/UserOperationClaim.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Enums/AuthenticatorType.cs" target="src/Core.Security/Enums/AuthenticatorType.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Extensions/ClaimsExtension.cs" target="src/Core.Security/Extensions/ClaimsExtension.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Extensions/ClaimsPrincipalExtensions.cs" target="src/Core.Security/Extensions/ClaimsPrincipalExtensions.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Hashing/HashingHelper.cs" target="src/Core.Security/Hashing/HashingHelper.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Jwt/AccessToken.cs" target="src/Core.Security/Jwt/AccessToken.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Jwt/ITokenHelper.cs" target="src/Core.Security/Jwt/ITokenHelper.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Jwt/JwtHelper.cs" target="src/Core.Security/Jwt/JwtHelper.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Jwt/TokenOptions.cs" target="src/Core.Security/Jwt/TokenOptions.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/OtpAuthenticator/IOtpAuthenticatorHelper.cs" target="src/Core.Security/OtpAuthenticator/IOtpAuthenticatorHelper.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/OtpAuthenticator/OtpNet/OtpNetOtpAuthenticatorHelper.cs" target="src/Core.Security/OtpAuthenticator/OtpNet/OtpNetOtpAuthenticatorHelper.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/SecurityServiceRegistration.cs" target="src/Core.Security/SecurityServiceRegistration.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/obj/Release/net10.0/Core.Security.GlobalUsings.g.cs" target="src/Core.Security/obj/Release/net10.0/Core.Security.GlobalUsings.g.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Core.Security.csproj" target="src/Core.Security/Core.Security.csproj" />
+  </files>
+</package>

@@ -1,0 +1,13 @@
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/bin/Release/net10.0/Core.CrossCuttingConcerns.deps.json
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/bin/Release/net10.0/Core.CrossCuttingConcerns.dll
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/bin/Release/net10.0/Core.CrossCuttingConcerns.pdb
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/obj/Release/net10.0/Core.CrossCuttingConcerns.csproj.AssemblyReference.cache
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/obj/Release/net10.0/Core.CrossCuttingConcerns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/obj/Release/net10.0/Core.CrossCuttingConcerns.AssemblyInfoInputs.cache
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/obj/Release/net10.0/Core.CrossCuttingConcerns.AssemblyInfo.cs
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/obj/Release/net10.0/Core.CrossCuttingConcerns.csproj.CoreCompileInputs.cache
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/obj/Release/net10.0/Core.CrossCuttingConcerns.sourcelink.json
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/obj/Release/net10.0/Core.CrossCuttingConcerns.dll
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/obj/Release/net10.0/refint/Core.CrossCuttingConcerns.dll
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/obj/Release/net10.0/Core.CrossCuttingConcerns.pdb
+/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/obj/Release/net10.0/ref/Core.CrossCuttingConcerns.dll

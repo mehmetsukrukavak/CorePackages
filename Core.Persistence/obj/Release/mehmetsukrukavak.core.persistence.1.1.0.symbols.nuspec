@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>mehmetsukrukavak.core.persistence</id>
+    <version>1.1.0</version>
+    <authors>Mehmet Şükrü Kavakn</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/mehmetsukrukavak/CorePackages</projectUrl>
+    <description>Core Library</description>
+    <tags>entity framework core crosscuttingconcerns cqrs</tags>
+    <repository type="git" url="https://github.com/mehmetsukrukavak/CorePackages" commit="ab2f3741895d7fba10e7cab375f02ee90742b89d" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="10.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Linq.Dynamic.Core" version="1.7.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/bin/Release/net10.0/Core.Persistence.pdb" target="lib/net10.0/Core.Persistence.pdb" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/bin/Release/net10.0/Core.Persistence.dll" target="lib/net10.0/Core.Persistence.dll" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/README.md" target="/README.md" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Dynamic/DynamicQuery.cs" target="src/Core.Persistence/Dynamic/DynamicQuery.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Dynamic/Filter.cs" target="src/Core.Persistence/Dynamic/Filter.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Dynamic/IQueryableDynamicFilterExtensions.cs" target="src/Core.Persistence/Dynamic/IQueryableDynamicFilterExtensions.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Dynamic/Sort.cs" target="src/Core.Persistence/Dynamic/Sort.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Paging/BasePageableModel.cs" target="src/Core.Persistence/Paging/BasePageableModel.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Paging/IQueryablePaginateExtension.cs" target="src/Core.Persistence/Paging/IQueryablePaginateExtension.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Paging/Paginate.cs" target="src/Core.Persistence/Paging/Paginate.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Repositories/BaseEntity.cs" target="src/Core.Persistence/Repositories/BaseEntity.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Repositories/EfRepositoryBase.cs" target="src/Core.Persistence/Repositories/EfRepositoryBase.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Repositories/IAsyncRepository.cs" target="src/Core.Persistence/Repositories/IAsyncRepository.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Repositories/IEntity.cs" target="src/Core.Persistence/Repositories/IEntity.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Repositories/IQuery.cs" target="src/Core.Persistence/Repositories/IQuery.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Repositories/IRepository.cs" target="src/Core.Persistence/Repositories/IRepository.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Repositories/Status.cs" target="src/Core.Persistence/Repositories/Status.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/obj/Release/net10.0/Core.Persistence.GlobalUsings.g.cs" target="src/Core.Persistence/obj/Release/net10.0/Core.Persistence.GlobalUsings.g.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Core.Persistence.csproj" target="src/Core.Persistence/Core.Persistence.csproj" />
+  </files>
+</package>

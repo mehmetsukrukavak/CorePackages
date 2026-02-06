@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Core.Persistence</id>
+    <version>1.0.0</version>
+    <authors>Core.Persistence</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="ab2f3741895d7fba10e7cab375f02ee90742b89d" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="10.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Linq.Dynamic.Core" version="1.7.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/bin/Release/net10.0/Core.Persistence.dll" target="lib/net10.0/Core.Persistence.dll" />
+  </files>
+</package>

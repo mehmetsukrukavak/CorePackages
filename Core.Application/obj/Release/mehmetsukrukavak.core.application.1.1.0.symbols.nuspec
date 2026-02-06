@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>mehmetsukrukavak.core.application</id>
+    <version>1.1.0</version>
+    <authors>Mehmet Şükrü Kavakn</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/mehmetsukrukavak/CorePackages</projectUrl>
+    <description>Core Library</description>
+    <tags>entity framework core crosscuttingconcerns cqrs</tags>
+    <repository type="git" url="https://github.com/mehmetsukrukavak/CorePackages" commit="ab2f3741895d7fba10e7cab375f02ee90742b89d" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="Core.CrossCuttingConcerns" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Core.Persistence" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Core.Security" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="FluentValidation" version="12.1.1" exclude="Build,Analyzers" />
+        <dependency id="MediatR" version="12.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="10.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.IdentityModel.Tokens" version="7.7.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CoreLibs/Release/net10.0/Core.Application.pdb" target="lib/net10.0/Core.Application.pdb" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CoreLibs/Release/net10.0/Core.Application.dll" target="lib/net10.0/Core.Application.dll" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/README.md" target="/README.md" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Dtos/IDto.cs" target="src/Core.Application/Dtos/IDto.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Dtos/UserForLoginDto.cs" target="src/Core.Application/Dtos/UserForLoginDto.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Pipelines/Authorization/AuthorizationBehavior.cs" target="src/Core.Application/Pipelines/Authorization/AuthorizationBehavior.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Pipelines/Authorization/ISecuredRequest.cs" target="src/Core.Application/Pipelines/Authorization/ISecuredRequest.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Pipelines/Caching/CacheRemovingBehavior.cs" target="src/Core.Application/Pipelines/Caching/CacheRemovingBehavior.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Pipelines/Caching/CacheSettings.cs" target="src/Core.Application/Pipelines/Caching/CacheSettings.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Pipelines/Caching/CachingBehavior.cs" target="src/Core.Application/Pipelines/Caching/CachingBehavior.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Pipelines/Caching/ICachableRequest.cs" target="src/Core.Application/Pipelines/Caching/ICachableRequest.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Pipelines/Caching/ICacheRemoverRequest.cs" target="src/Core.Application/Pipelines/Caching/ICacheRemoverRequest.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Pipelines/Logging/ILoggableRequest.cs" target="src/Core.Application/Pipelines/Logging/ILoggableRequest.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Pipelines/Logging/LoggingBehavior.cs" target="src/Core.Application/Pipelines/Logging/LoggingBehavior.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Pipelines/Transaction/ITransactionalRequest.cs" target="src/Core.Application/Pipelines/Transaction/ITransactionalRequest.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Pipelines/Transaction/TransactionScopeBehavior.cs" target="src/Core.Application/Pipelines/Transaction/TransactionScopeBehavior.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Pipelines/Validation/RequestValidationBehavior.cs" target="src/Core.Application/Pipelines/Validation/RequestValidationBehavior.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Requests/PageRequest.cs" target="src/Core.Application/Requests/PageRequest.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Responses/GetListResponse.cs" target="src/Core.Application/Responses/GetListResponse.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Responses/IResponse.cs" target="src/Core.Application/Responses/IResponse.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Rules/BaseBusinessRules.cs" target="src/Core.Application/Rules/BaseBusinessRules.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/obj/Release/net10.0/Core.Application.GlobalUsings.g.cs" target="src/Core.Application/obj/Release/net10.0/Core.Application.GlobalUsings.g.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Core.Application.csproj" target="src/Core.Application/Core.Application.csproj" />
+  </files>
+</package>

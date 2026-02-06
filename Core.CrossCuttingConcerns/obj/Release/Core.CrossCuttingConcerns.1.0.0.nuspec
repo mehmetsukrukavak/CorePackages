@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Core.CrossCuttingConcerns</id>
+    <version>1.0.0</version>
+    <authors>Core.CrossCuttingConcerns</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="ab2f3741895d7fba10e7cab375f02ee90742b89d" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.3.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.Core" version="2.3.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="10.0.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.File" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.MSSqlServer" version="9.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/bin/Release/net10.0/Core.CrossCuttingConcerns.dll" target="lib/net10.0/Core.CrossCuttingConcerns.dll" />
+  </files>
+</package>

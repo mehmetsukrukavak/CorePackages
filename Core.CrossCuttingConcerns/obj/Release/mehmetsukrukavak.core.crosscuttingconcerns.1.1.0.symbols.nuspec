@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>mehmetsukrukavak.core.crosscuttingconcerns</id>
+    <version>1.1.0</version>
+    <authors>Mehmet Şükrü Kavakn</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/mehmetsukrukavak/CorePackages</projectUrl>
+    <description>Core Library</description>
+    <tags>entity framework core crosscuttingconcerns cqrs</tags>
+    <repository type="git" url="https://github.com/mehmetsukrukavak/CorePackages" commit="ab2f3741895d7fba10e7cab375f02ee90742b89d" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.3.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.Core" version="2.3.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="10.0.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.File" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.MSSqlServer" version="9.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/bin/Release/net10.0/Core.CrossCuttingConcerns.pdb" target="lib/net10.0/Core.CrossCuttingConcerns.pdb" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/bin/Release/net10.0/Core.CrossCuttingConcerns.dll" target="lib/net10.0/Core.CrossCuttingConcerns.dll" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/README.md" target="/README.md" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Exceptions/ExceptionMiddleware.cs" target="src/Core.CrossCuttingConcerns/Exceptions/ExceptionMiddleware.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Exceptions/Extensions/ExceptionMiddlewareExtensions.cs" target="src/Core.CrossCuttingConcerns/Exceptions/Extensions/ExceptionMiddlewareExtensions.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Exceptions/Extensions/ProblemDetailsExtensions.cs" target="src/Core.CrossCuttingConcerns/Exceptions/Extensions/ProblemDetailsExtensions.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Exceptions/Handlers/ExceptionHandler.cs" target="src/Core.CrossCuttingConcerns/Exceptions/Handlers/ExceptionHandler.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Exceptions/Handlers/HttpExceptionHandler.cs" target="src/Core.CrossCuttingConcerns/Exceptions/Handlers/HttpExceptionHandler.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Exceptions/HttpProblemDetails/BusinessProblemDetails.cs" target="src/Core.CrossCuttingConcerns/Exceptions/HttpProblemDetails/BusinessProblemDetails.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Exceptions/HttpProblemDetails/InternalServerErrorProblemDetails.cs" target="src/Core.CrossCuttingConcerns/Exceptions/HttpProblemDetails/InternalServerErrorProblemDetails.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Exceptions/HttpProblemDetails/ValidationProblemDetails.cs" target="src/Core.CrossCuttingConcerns/Exceptions/HttpProblemDetails/ValidationProblemDetails.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Exceptions/Types/AuthorizationException.cs" target="src/Core.CrossCuttingConcerns/Exceptions/Types/AuthorizationException.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Exceptions/Types/BusinessException.cs" target="src/Core.CrossCuttingConcerns/Exceptions/Types/BusinessException.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Exceptions/Types/ValidationException.cs" target="src/Core.CrossCuttingConcerns/Exceptions/Types/ValidationException.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Logging/LogDetail.cs" target="src/Core.CrossCuttingConcerns/Logging/LogDetail.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Logging/LogDetailWithException.cs" target="src/Core.CrossCuttingConcerns/Logging/LogDetailWithException.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Logging/LogParameter.cs" target="src/Core.CrossCuttingConcerns/Logging/LogParameter.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/SeriLog/ConfigurationModels/FileLogConfiguration.cs" target="src/Core.CrossCuttingConcerns/SeriLog/ConfigurationModels/FileLogConfiguration.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/SeriLog/ConfigurationModels/MsSqlLogConfiguration.cs" target="src/Core.CrossCuttingConcerns/SeriLog/ConfigurationModels/MsSqlLogConfiguration.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/SeriLog/Loggers/FileLogger.cs" target="src/Core.CrossCuttingConcerns/SeriLog/Loggers/FileLogger.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/SeriLog/Loggers/MsSqlLogger.cs" target="src/Core.CrossCuttingConcerns/SeriLog/Loggers/MsSqlLogger.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/SeriLog/LoggerServiceBase.cs" target="src/Core.CrossCuttingConcerns/SeriLog/LoggerServiceBase.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/SeriLog/Messages/SeriLogMessages.cs" target="src/Core.CrossCuttingConcerns/SeriLog/Messages/SeriLogMessages.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/obj/Release/net10.0/Core.CrossCuttingConcerns.GlobalUsings.g.cs" target="src/Core.CrossCuttingConcerns/obj/Release/net10.0/Core.CrossCuttingConcerns.GlobalUsings.g.cs" />
+    <file src="/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj" target="src/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj" />
+  </files>
+</package>
