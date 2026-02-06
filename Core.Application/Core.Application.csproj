@@ -4,7 +4,21 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackageId>mehmetsukrukavak.core.application</PackageId>
+        <Version>1.1.0</Version>
+        <Authors>Mehmet Şükrü Kavakn</Authors>
+        <Company>Company X</Company>
+        <Description>Core Library</Description>
+        <PackageTags>entity framework;core;crosscuttingconcerns;cqrs</PackageTags>
+        <PackageProjectUrl>https://github.com/mehmetsukrukavak/CorePackages</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/mehmetsukrukavak/CorePackages</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
       <OutputPath>../../CoreLibs/Debug</OutputPath>

@@ -10,13 +10,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Core.CrossCuttingConcerns")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Company X")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Core Library")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.0+ab2f3741895d7fba10e7cab375f02ee90742b89d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Core.CrossCuttingConcerns")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Core.CrossCuttingConcerns")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.1.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/mehmetsukrukavak/CorePackages")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
 

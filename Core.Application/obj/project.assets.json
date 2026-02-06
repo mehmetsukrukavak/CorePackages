@@ -1237,7 +1237,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Core.CrossCuttingConcerns/1.0.0": {
+      "mehmetsukrukavak.core.crosscuttingconcerns/1.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -1249,13 +1249,13 @@
           "Serilog.Sinks.MSSqlServer": "9.0.2"
         },
         "compile": {
-          "bin/placeholder/Core.CrossCuttingConcerns.dll": {}
+          "bin/placeholder/mehmetsukrukavak.core.crosscuttingconcerns.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Core.CrossCuttingConcerns.dll": {}
+          "bin/placeholder/mehmetsukrukavak.core.crosscuttingconcerns.dll": {}
         }
       },
-      "Core.Persistence/1.0.0": {
+      "mehmetsukrukavak.core.persistence/1.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -1263,27 +1263,27 @@
           "System.Linq.Dynamic.Core": "1.7.1"
         },
         "compile": {
-          "bin/placeholder/Core.Persistence.dll": {}
+          "bin/placeholder/mehmetsukrukavak.core.persistence.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Core.Persistence.dll": {}
+          "bin/placeholder/mehmetsukrukavak.core.persistence.dll": {}
         }
       },
-      "Core.Security/1.0.0": {
+      "mehmetsukrukavak.core.Security/1.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Core.Persistence": "1.0.0",
           "Microsoft.Extensions.Configuration.Binder": "10.0.1",
           "Microsoft.IdentityModel.Tokens": "7.7.1",
           "Otp.NET": "1.4.1",
-          "System.IdentityModel.Tokens.Jwt": "7.7.1"
+          "System.IdentityModel.Tokens.Jwt": "7.7.1",
+          "mehmetsukrukavak.core.persistence": "1.1.0"
         },
         "compile": {
-          "bin/placeholder/Core.Security.dll": {}
+          "bin/placeholder/mehmetsukrukavak.core.Security.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Core.Security.dll": {}
+          "bin/placeholder/mehmetsukrukavak.core.Security.dll": {}
         }
       }
     }
@@ -2930,17 +2930,17 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Core.CrossCuttingConcerns/1.0.0": {
+    "mehmetsukrukavak.core.crosscuttingconcerns/1.1.0": {
       "type": "project",
       "path": "../Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj",
       "msbuildProject": "../Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj"
     },
-    "Core.Persistence/1.0.0": {
+    "mehmetsukrukavak.core.persistence/1.1.0": {
       "type": "project",
       "path": "../Core.Persistence/Core.Persistence.csproj",
       "msbuildProject": "../Core.Persistence/Core.Persistence.csproj"
     },
-    "Core.Security/1.0.0": {
+    "mehmetsukrukavak.core.Security/1.1.0": {
       "type": "project",
       "path": "../Core.Security/Core.Security.csproj",
       "msbuildProject": "../Core.Security/Core.Security.csproj"
@@ -2948,23 +2948,23 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Core.CrossCuttingConcerns >= 1.0.0",
-      "Core.Persistence >= 1.0.0",
-      "Core.Security >= 1.0.0",
       "FluentValidation >= 12.1.1",
       "MediatR >= 12.2.0",
       "Microsoft.Extensions.Configuration.Binder >= 10.0.1",
-      "Microsoft.IdentityModel.Tokens >= 7.7.1"
+      "Microsoft.IdentityModel.Tokens >= 7.7.1",
+      "mehmetsukrukavak.core.Security >= 1.1.0",
+      "mehmetsukrukavak.core.crosscuttingconcerns >= 1.1.0",
+      "mehmetsukrukavak.core.persistence >= 1.1.0"
     ]
   },
   "packageFolders": {
     "/Users/mehmetsukrukavak/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "restore": {
       "projectUniqueName": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Core.Application.csproj",
-      "projectName": "Core.Application",
+      "projectName": "mehmetsukrukavak.core.application",
       "projectPath": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/Core.Application.csproj",
       "packagesPath": "/Users/mehmetsukrukavak/.nuget/packages/",
       "outputPath": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Application/obj/",
@@ -2977,8 +2977,7 @@
         "net10.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://artifactory.turkcell.com.tr/artifactory/api/nuget/v3/virtual-nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {

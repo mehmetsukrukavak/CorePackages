@@ -5,10 +5,10 @@
   },
   "projects": {
     "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Core.Persistence.csproj": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "restore": {
         "projectUniqueName": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Core.Persistence.csproj",
-        "projectName": "Core.Persistence",
+        "projectName": "mehmetsukrukavak.core.persistence",
         "projectPath": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Core.Persistence.csproj",
         "packagesPath": "/Users/mehmetsukrukavak/.nuget/packages/",
         "outputPath": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/obj/",
@@ -21,8 +21,7 @@
           "net10.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://artifactory.turkcell.com.tr/artifactory/api/nuget/v3/virtual-nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
