@@ -352,7 +352,7 @@
           }
         }
       },
-      "mehmetsukrukavak.core.persistence/1.1.0": {
+      "Core.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -360,10 +360,10 @@
           "System.Linq.Dynamic.Core": "1.7.1"
         },
         "compile": {
-          "bin/placeholder/mehmetsukrukavak.core.persistence.dll": {}
+          "bin/placeholder/Core.Persistence.dll": {}
         },
         "runtime": {
-          "bin/placeholder/mehmetsukrukavak.core.persistence.dll": {}
+          "bin/placeholder/Core.Persistence.dll": {}
         }
       }
     }
@@ -1012,7 +1012,7 @@
         "system.linq.dynamic.core.nuspec"
       ]
     },
-    "mehmetsukrukavak.core.persistence/1.1.0": {
+    "Core.Persistence/1.0.0": {
       "type": "project",
       "path": "../Core.Persistence/Core.Persistence.csproj",
       "msbuildProject": "../Core.Persistence/Core.Persistence.csproj"
@@ -1020,21 +1020,21 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Core.Persistence >= 1.0.0",
       "Microsoft.Extensions.Configuration.Binder >= 10.0.1",
       "Microsoft.IdentityModel.Tokens >= 7.7.1",
       "Otp.NET >= 1.4.1",
-      "System.IdentityModel.Tokens.Jwt >= 7.7.1",
-      "mehmetsukrukavak.core.persistence >= 1.1.0"
+      "System.IdentityModel.Tokens.Jwt >= 7.7.1"
     ]
   },
   "packageFolders": {
     "/Users/mehmetsukrukavak/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.1.0",
+    "version": "1.0.0",
     "restore": {
       "projectUniqueName": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Core.Security.csproj",
-      "projectName": "mehmetsukrukavak.core.Security",
+      "projectName": "Core.Security",
       "projectPath": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Core.Security.csproj",
       "packagesPath": "/Users/mehmetsukrukavak/.nuget/packages/",
       "outputPath": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/obj/",

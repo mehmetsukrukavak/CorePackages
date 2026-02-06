@@ -4,8 +4,8 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable> 
-        <PackageId>mehmetsukrukavak.core.Security</PackageId>
-        <Version>1.1.0</Version>
+        <PackageId>Core.Security</PackageId>
+        <Version>1.0.0</Version>
         <Authors>Mehmet Şükrü Kavakn</Authors>
         <Company>Company X</Company>
         <Description>Core Library</Description>

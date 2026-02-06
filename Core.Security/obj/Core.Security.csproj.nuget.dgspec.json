@@ -5,10 +5,10 @@
   },
   "projects": {
     "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Core.Persistence.csproj": {
-      "version": "1.1.0",
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Core.Persistence.csproj",
-        "projectName": "mehmetsukrukavak.core.persistence",
+        "projectName": "Core.Persistence",
         "projectPath": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/Core.Persistence.csproj",
         "packagesPath": "/Users/mehmetsukrukavak/.nuget/packages/",
         "outputPath": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Persistence/obj/",
@@ -349,10 +349,10 @@
       }
     },
     "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Core.Security.csproj": {
-      "version": "1.1.0",
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Core.Security.csproj",
-        "projectName": "mehmetsukrukavak.core.Security",
+        "projectName": "Core.Security",
         "projectPath": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/Core.Security.csproj",
         "packagesPath": "/Users/mehmetsukrukavak/.nuget/packages/",
         "outputPath": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.Security/obj/",

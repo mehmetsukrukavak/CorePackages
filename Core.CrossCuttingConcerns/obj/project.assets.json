@@ -2563,7 +2563,7 @@
     "version": "1.1.0",
     "restore": {
       "projectUniqueName": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj",
-      "projectName": "mehmetsukrukavak.core.crosscuttingconcerns",
+      "projectName": "Core.CrossCuttingConcerns",
       "projectPath": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj",
       "packagesPath": "/Users/mehmetsukrukavak/.nuget/packages/",
       "outputPath": "/Users/mehmetsukrukavak/Documents/Projects/CorePackages/Core.CrossCuttingConcerns/obj/",
